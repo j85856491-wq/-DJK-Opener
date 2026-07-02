@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+   Exclude device admin policy files and backup data
+   as they should not be backed up
+-->
+    <exclude domain="database" path="device_admin_policy" />
+</full-backup-content>

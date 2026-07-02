@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DJK Opener</string>
+    <string name="app_description">Contrôle Parental - Blocage des Réseaux Sociaux</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_title">Bienvenue sur DJK Opener</string>
+    <string name="welcome_subtitle">Application de Contrôle Parental</string>
+    <string name="setup_button">Commencer la Configuration</string>
+    <string name="admin_button">Activer Device Admin</string>
+    <string name="dashboard_button">Aller au Dashboard</string>
+    
+    <!-- Blocked App -->
+    <string name="app_blocked_title">App Bridée</string>
+    <string name="app_blocked_message">L\'app a été bridée.\nVeuillez attendre que le parent vous autorise l\'accès.</string>
+    <string name="app_blocked_unlock">Débloquer</string>
+    
+    <!-- Unlock Activity -->
+    <string name="unlock_title">Débloquer l\'accès</string>
+    <string name="unlock_subtitle">Entrez le mot de passe parent</string>
+    <string name="unlock_hint">Tapez votre réponse...</string>
+    <string name="unlock_button">Vérifier</string>
+    <string name="unlock_success">Accès Autorisé!</string>
+    <string name="unlock_failed">Mot de passe incorrect</string>
+    <string name="unlock_close">Fermer</string>
+    
+    <!-- Parent Dashboard -->
+    <string name="dashboard_title">Dashboard Parent</string>
+    <string name="dashboard_blocked_apps">Apps Bloquées</string>
+    <string name="dashboard_statistics">Statistiques</string>
+    <string name="dashboard_settings">Paramètres</string>
+    <string name="dashboard_add_app">Ajouter une App</string>
+    <string name="dashboard_remove_app">Retirer une App</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_password">Changer le Mot de Passe</string>
+    <string name="settings_schedule">Horaires de Blocage</string>
+    <string name="settings_security">Sécurité</string>
+    <string name="settings_notifications">Notifications</string>
+    
+    <!-- Admin Receiver -->
+    <string name="admin_receiver_description">DJK Opener Device Admin pour protection contre désinstallation</string>
+    
+    <!-- Error Messages -->
+    <string name="error_admin_not_enabled">Veuillez activer Device Admin</string>
+    <string name="error_permission_denied">Permission refusée</string>
+    <string name="error_database_error">Erreur de base de données</string>
+    
+    <!-- Success Messages -->
+    <string name="success_app_added">App ajoutée aux blocages</string>
+    <string name="success_app_removed">App retirée des blocages</string>
+    <string name="success_settings_saved">Paramètres enregistrés</string>
+</resources>
